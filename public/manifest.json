@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Multi-Language Translator",
+    "description": "Translate text into multiple languages with ease.",
+    "version": "1.0",
+    "action": {
+    "default_popup": "index.html"
+    },
+    "permissions": []
+}
