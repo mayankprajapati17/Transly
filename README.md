@@ -2,7 +2,7 @@ Transly is a sleek and versatile language translation app that allows users to s
 
 This app is designed with an intuitive user interface and features a calming teal and navy color scheme, making it both visually pleasing and easy to use. Users simply input the text they want to translate, choose the source and target languages, and click "Translate" to see the translated output displayed instantly.
 
-To turn LinguaFlow Translator into a Chrome extension:
+To turn Transly into a Chrome extension:
 
 1 Organize Files: Create a folder with index.html, popup.js, popup.css, and manifest.json.
 2 index.html: Build the basic HTML structure with a <div id="root"></div> for the React app.
