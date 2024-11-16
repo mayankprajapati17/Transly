@@ -126,6 +126,7 @@ const styles = {
     padding: '15px',
     fontSize: '16px',
     borderRadius: '8px',
+    color:'#004d40',
     border: '1px solid #b2dfdb',
     outline: 'none',
     marginBottom: '15px',
@@ -180,7 +181,6 @@ const styles = {
     color: '#004d40',
   },
 };
-
 
 
 export default App;
