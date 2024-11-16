@@ -101,13 +101,15 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100vh',
+    width: '100vw', // Full width of the viewport
+    height: '100vh', // Full height of the viewport
     backgroundColor: '#e0f7fa', // light teal background
     fontFamily: 'Arial, sans-serif',
+    margin: 0, // Remove default margin
   },
   card: {
-    width: '100%',
-    maxWidth: '500px',
+    width: '90%', // Adjust for responsiveness
+    maxWidth: '600px',
     padding: '30px',
     borderRadius: '15px',
     backgroundColor: '#ffffff',
@@ -115,76 +117,70 @@ const styles = {
     textAlign: 'center',
   },
   title: {
-    fontSize: '28px',
-    color: '#00796b', // deep teal
-    marginBottom: '15px',
+    fontSize: '32px',
+    color: '#00796b',
+    marginBottom: '20px',
   },
   textarea: {
     width: '100%',
-    color: '#004d40',
-    padding: '12px',
+    padding: '15px',
     fontSize: '16px',
     borderRadius: '8px',
-    border: '1px solid #b2dfdb', // soft teal border
+    border: '1px solid #b2dfdb',
     outline: 'none',
     marginBottom: '15px',
     resize: 'none',
-    backgroundColor: '#e0f2f1', // very light teal
-    transition: 'box-shadow 0.3s ease',
+    backgroundColor: '#e0f2f1',
   },
   languageContainer: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    marginBottom: '15px',
+    marginBottom: '20px',
   },
   label: {
     fontSize: '14px',
-    color: '#004d40', // dark teal
-    marginBottom: '5px',
+    color: '#004d40',
+    marginBottom: '8px',
   },
   select: {
     padding: '10px',
     fontSize: '16px',
     borderRadius: '8px',
     border: '1px solid #b2dfdb',
-    outline: 'none',
     backgroundColor: '#e0f2f1',
     color: '#004d40',
     width: '100%',
     maxWidth: '300px',
-    transition: 'box-shadow 0.3s ease',
   },
   button: {
-    padding: '12px 24px',
-    fontSize: '16px',
+    padding: '15px 30px',
+    fontSize: '18px',
     color: '#ffffff',
-    backgroundColor: '#00796b', // teal button
+    backgroundColor: '#00796b',
     border: 'none',
     borderRadius: '8px',
     cursor: 'pointer',
     transition: 'background-color 0.3s ease',
-    marginTop: '10px',
-  },
-  buttonHover: {
-    backgroundColor: '#00695c', // slightly darker teal on hover
   },
   resultContainer: {
-    marginTop: '20px',
-    padding: '15px',
-    borderRadius: '8px',
-    backgroundColor: '#e0f2f1', // soft teal for result background
+    marginTop: '25px',
+    padding: '20px',
+    borderRadius: '10px',
+    backgroundColor: '#e0f2f1',
     border: '1px solid #b2dfdb',
   },
   resultTitle: {
-    fontSize: '18px',
+    fontSize: '20px',
     color: '#00796b',
     marginBottom: '10px',
   },
   resultText: {
     fontSize: '16px',
-    color: '#004d40', // dark teal text
+    color: '#004d40',
   },
 };
+
+
 
 export default App;
